@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body {
+    min-width: 100vw;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #123;
+}
+.image {
+    float: right;
+    padding-top:10%;
+}
+.image img {
+    height: 8cm;
+    width: 8cm;
+}
+.container .header{ 
+    float: left;
+    padding-top: 15%;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 40px;
+    font-family: Poppins;
+}
+.container .header span {
+      font-family: Open Sans;
+}
+.buttons {
+    
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.buttons button {
+    height: 1.5cm;
+    width: 5cm;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #123;
+    font-size: 16px;
+    font-family: Poppins;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.buttons button:hover {
+    background-color: #fff;
+    color: #123;
+}
+.ourservices {
+    height: 12cm;
+    width: 80%;
+   margin: 110px 150px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+}
+.ourservices header {
+    font-family: Poppins;
+    font-size: 40px;
+    padding-left: 20px;
+    border-bottom:2px solid violet;
+    width:30%;
+    padding-top: 40px;
+}
+.box {
+    height: 10cm;
+    width: 10cm;
+    overflow: hidden;
+    margin: 20px;
+    background: #eee;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px 5px rgba(0,0,0,0.1);
+}
+.box h1 {
+    font-family: Open Sans;
+    font-size:22px;
+}
+.box p {
+    font-size:18px;
+    font-family: Open Sans;
+}
+.box img {
+    height: 5cm;
+    width: 10cm;
+}
+.contact-us {
+    height: 10cm;
+    width: 100%;
+    background: #1b1b1b;
+}
+.contact-us h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+.contact-us input {
+    height: 1cm;
+    width: 80%;
+}
+.contact-us textarea {
+    height:5cm;
+    width: 80%;
+}
+.contact-us button {
+    height: 1cm;
+    width: 5cm;
+    background: rgba(255,255,255,0.05);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
